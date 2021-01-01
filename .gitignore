@@ -5,4 +5,6 @@
 !/.github
 
 # zsh
+!/.p10k.zsh
+!/.zshenv
 !/.zshrc
