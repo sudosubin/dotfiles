@@ -1,2 +1,8 @@
+# ignore all
+/*
+
 # git directory
-/.cfg
+!/.github
+
+# zsh
+!/.zshrc
