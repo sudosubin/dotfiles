@@ -12,6 +12,9 @@
 !/.config/VSCodium/User
 !/.config/VSCodium/User/settings.json
 
+# st-term
+!/.Xresources
+
 # tmux
 !/.tmux.conf
 
