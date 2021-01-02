@@ -4,8 +4,10 @@
 # git directory
 !/.github
 
-# vscodium
+# .config: bat, vscodium
 !/.config
+!/.config/bat
+!/.config/bat/config
 !/.config/VSCodium
 !/.config/VSCodium/User
 !/.config/VSCodium/User/settings.json
