@@ -7,6 +7,9 @@
 # .config
 !/.config
 
+# asdf
+!/.asdf
+
 # bat
 !/.config/bat
 !/.config/bat/*
@@ -44,7 +47,6 @@
 # zinit
 !/.zinit
 !/.zinit/bin
-!/.zinit/bin/*
 
 # zsh
 !/.p10k.zsh

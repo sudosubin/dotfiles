@@ -1,3 +1,8 @@
+[submodule ".asdf"]
+	path = .asdf
+	url = https://github.com/asdf-vm/asdf.git
+	branch = master
+
 [submodule ".zinit/bin"]
 	path = .zinit/bin
 	url = https://github.com/zdharma/zinit.git
