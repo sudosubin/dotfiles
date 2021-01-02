@@ -1,0 +1,4 @@
+[submodule ".zinit/bin"]
+	path = .zinit/bin
+	url = https://github.com/zdharma/zinit.git
+	branch = master

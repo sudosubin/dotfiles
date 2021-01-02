@@ -41,6 +41,11 @@
 !/.config/VSCodium/User
 !/.config/VSCodium/User/settings.json
 
+# zinit
+!/.zinit
+!/.zinit/bin
+!/.zinit/bin/*
+
 # zsh
 !/.p10k.zsh
 !/.zprofile
