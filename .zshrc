@@ -151,6 +151,7 @@ zinit ice as'program' from'gh-r'
 zinit light lokalise/lokalise-cli-2-go
 
 # Softwares > pipenv
+typeset -g PIPENV_VENV_IN_PROJECT="enabled"
 zinit ice as'program' cloneopts'' atclone'
     rm -rf .venv;
     /usr/bin/python3 -m venv .venv;
