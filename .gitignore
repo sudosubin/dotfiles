@@ -12,6 +12,9 @@
 !/.config/VSCodium/User
 !/.config/VSCodium/User/settings.json
 
+# tmux
+!/.tmux.conf
+
 # zsh
 !/.p10k.zsh
 !/.zshenv
