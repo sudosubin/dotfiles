@@ -4,20 +4,27 @@
 # git directory
 !/.github
 
-# .config: bat, bpython, pip, vscodium
+# .config
 !/.config
+
+# bat
 !/.config/bat
 !/.config/bat/*
+
+# bpython
 !/.config/bpython
 !/.config/bpython/*
-!/.config/pip
-!/.config/pip/pip.conf
-!/.config/VSCodium
-!/.config/VSCodium/User
-!/.config/VSCodium/User/settings.json
 
 # git
 !/.gitconfig
+
+# pip
+!/.config/pip
+!/.config/pip/pip.conf
+
+# poetry
+!/.config/pypoetry
+!/.config/pypoetry/config.toml
 
 # ssl
 !/.ssl
@@ -28,6 +35,11 @@
 
 # tmux
 !/.tmux.conf
+
+# vscodium
+!/.config/VSCodium
+!/.config/VSCodium/User
+!/.config/VSCodium/User/settings.json
 
 # zsh
 !/.p10k.zsh
