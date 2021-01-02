@@ -1,7 +1,7 @@
 # Powerlevel10k instant prompt.
-if [[ -r "$HOME/.cache/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-    source "$HOME/.cache/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+# if [[ -r "$HOME/.cache/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#     source "$HOME/.cache/p10k-instant-prompt-${(%):-%n}.zsh"
+# fi
 
 # Set up the prompt
 autoload -Uz promptinit
@@ -149,6 +149,16 @@ zinit light hadolint/hadolint
 # Softwares > lokalise2
 zinit ice as'program' from'gh-r'
 zinit light lokalise/lokalise-cli-2-go
+
+# Softwares > pipenv
+zinit ice as'program' cloneopts'' atclone'
+    rm -rf .venv;
+    /usr/bin/python3 -m venv .venv;
+    source .venv/bin/activate;
+    pip install .;
+    deactivate;
+' pick'.venv/bin/pipenv'
+zinit light pypa/pipenv
 
 # Paths > spicetify
 export SPICETIFY_INSTALL="$HOME/spicetify-cli"
