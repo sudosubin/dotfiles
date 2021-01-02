@@ -16,6 +16,9 @@
 !/.config/VSCodium/User
 !/.config/VSCodium/User/settings.json
 
+# git
+!/.gitconfig
+
 # ssl
 !/.ssl
 !/.ssl/openssl.cnf
