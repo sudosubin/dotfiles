@@ -1,8 +1,14 @@
 # ignore all
-/*
+*
 
 # git directory
 !/.github
+
+# vscodium
+!/.config
+!/.config/VSCodium
+!/.config/VSCodium/User
+!/.config/VSCodium/User/settings.json
 
 # zsh
 !/.p10k.zsh
