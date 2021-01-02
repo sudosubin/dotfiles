@@ -14,6 +14,10 @@
 !/.config/VSCodium/User
 !/.config/VSCodium/User/settings.json
 
+# ssl
+!/.ssl
+!/.ssl/openssl.cnf
+
 # st-term
 !/.Xresources
 
