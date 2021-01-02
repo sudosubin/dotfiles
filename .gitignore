@@ -22,5 +22,6 @@
 
 # zsh
 !/.p10k.zsh
+!/.zprofile
 !/.zshenv
 !/.zshrc
