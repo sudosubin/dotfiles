@@ -181,5 +181,10 @@ activate() {
     done
 }
 
+# Functions > st-term title
+precmd() {
+    printf "\033];$(dirs)\a";
+}
+
 # Dotfiles
 alias config="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
