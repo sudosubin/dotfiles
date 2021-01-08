@@ -6,8 +6,14 @@
 
 # .config
 !/.config
+
+# .config > autostart
 !/.config/autostart
 !/.config/autostart/*
+
+# .config > fonts
+!/.config/fontconfig
+!/.config/fontconfig/fonts.conf
 
 # asdf
 !/.asdf
