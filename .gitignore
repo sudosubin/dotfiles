@@ -15,8 +15,17 @@
 !/.config/fontconfig
 !/.config/fontconfig/fonts.conf
 
-# asdf
+# submodule > asdf
 !/.asdf
+
+# submodule > tpm
+!/.tmux
+!/.tmux/plugins
+!/.tmux/plugins/tpm
+
+# submodule > zinit
+!/.zinit
+!/.zinit/bin
 
 # bat
 !/.config/bat
@@ -51,10 +60,6 @@
 !/.config/VSCodium
 !/.config/VSCodium/User
 !/.config/VSCodium/User/settings.json
-
-# zinit
-!/.zinit
-!/.zinit/bin
 
 # zsh
 !/.p10k.zsh
