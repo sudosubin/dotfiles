@@ -7,7 +7,7 @@ fi
 autoload -Uz promptinit
 promptinit
 
-setopt autocd histignorealldups sharehistory
+setopt autocd histignorealldups sharehistory globdots
 
 # Use word jump for zsh, tmux
 bindkey "^[[1;5C" forward-word
