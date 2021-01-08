@@ -6,6 +6,8 @@
 
 # .config
 !/.config
+!/.config/autostart
+!/.config/autostart/*
 
 # asdf
 !/.asdf

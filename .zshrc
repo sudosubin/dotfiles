@@ -1,7 +1,7 @@
 # Powerlevel10k instant prompt.
-# if [[ -r "$HOME/.cache/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-#     source "$HOME/.cache/p10k-instant-prompt-${(%):-%n}.zsh"
-# fi
+if [[ -r "$HOME/.cache/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+    source "$HOME/.cache/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
 # Set up the prompt
 autoload -Uz promptinit
