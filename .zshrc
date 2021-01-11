@@ -96,7 +96,7 @@ zinit ice wait lucid
 zinit light tadfisher/pass-otp
 
 # Plugins > completions (asdf)
-typeset -g JAVA_HOME="/home/sudosubin/.asdf/installs/java/openjdk-15.0.1"
+typeset -x JAVA_HOME="/home/sudosubin/.asdf/installs/java/openjdk-15.0.1"
 # source "$HOME/.asdf/plugins/java/set-java-home.zsh"
 zinit ice wait lucid pick'asdf.plugin.zsh' \
     atinit'autoload bashcompinit; bashcompinit' \

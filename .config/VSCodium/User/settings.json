@@ -66,8 +66,10 @@
     "python.linting.flake8Args": [
         "--max-line-length=120"
     ],
-    "autoDocstring.generateDocstringOnEnter": true,
-    "autoDocstring.guessTypes": true,
+    "[python]": {
+        "editor.tabSize": 4,
+        "files.insertFinalNewline": true
+    },
 
     // language (bash)
     "shellcheck.customArgs": [
@@ -77,10 +79,6 @@
     // languages (etc)
     "java.configuration.checkProjectSettingsExclusions": false,
     "typescript.preferences.importModuleSpecifier": "non-relative",
-    "[python]": {
-        "editor.tabSize": 4,
-        "files.insertFinalNewline": true
-    },
     "[html]": {
         "editor.tabSize": 2
     },
