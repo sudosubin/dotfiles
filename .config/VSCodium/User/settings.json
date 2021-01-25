@@ -71,17 +71,8 @@
         "files.insertFinalNewline": true
     },
 
-    // language (bash)
-    "shellcheck.customArgs": [
-        "-x"
-    ],
-
-    // languages (etc)
-    "java.configuration.checkProjectSettingsExclusions": false,
+    // language (javascript)
     "typescript.preferences.importModuleSpecifier": "non-relative",
-    "[html]": {
-        "editor.tabSize": 2
-    },
     "[javascript]": {
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
@@ -101,6 +92,17 @@
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // language (bash)
+    "shellcheck.customArgs": [
+        "-x"
+    ],
+
+    // languages (etc)
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "[html]": {
+        "editor.tabSize": 2
     },
 
     // telemetry, etc

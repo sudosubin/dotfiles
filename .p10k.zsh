@@ -278,7 +278,7 @@
   typeset -g POWERLEVEL9K_ASDF_LUA_FOREGROUND=32
 
   # Java version from asdf.
-  typeset -g POWERLEVEL9K_ASDF_JAVA_FOREGROUND=32
+  typeset -g POWERLEVEL9K_ASDF_JAVA_FOREGROUND=4
 
   # Perl version from asdf.
   typeset -g POWERLEVEL9K_ASDF_PERL_FOREGROUND=67
