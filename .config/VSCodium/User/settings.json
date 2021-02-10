@@ -22,9 +22,13 @@
     ".dockerignore": "ignore",
     "*.bats": "shellscript"
   },
+  "customizeUI.activityBar": "bottom",
+  "customizeUI.font.regular": "SF Pro Text",
+  "customizeUI.font.monospace": "FiraMono Nerd Font Mono",
   "customizeUI.stylesheet": {
-    ".search-widget textarea, .find-widget textarea, .search-view .results .match": "font-size: 12px; font-family: monospace !important;",
-    ".editor-container": "-webkit-font-smoothing: antialiased;"
+    ".quick-input-widget": "font-family: monospace !important; font-size: 12px !important;",
+    ".search-view .search-widgets-container": "font-family: monospace !important; font-size: 12px !important;",
+    ".monaco-list-rows, .monaco-findInput": "font-family: monospace !important; font-size: 12px !important;",
   },
 
   // workspace
