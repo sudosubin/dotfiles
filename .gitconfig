@@ -1,6 +1,6 @@
 [user]
 	name = sudosubin
-	email = sudosubin+github@gmail.com
+	email = sudosubin@gmail.com
 [core]
 	pager = delta --24-bit-color=always
 [interactive]
