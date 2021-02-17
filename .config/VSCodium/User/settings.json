@@ -13,10 +13,16 @@
   "oneDarkPro.editorTheme": "oneDarkPro",
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "react",
   "material-icon-theme.hidesExplorerArrows": true,
   "material-icon-theme.showWelcomeMessage": false,
   "material-icon-theme.files.associations": {
     "stories.tsx": "storybook"
+  },
+  "material-icon-theme.folders.associations": {
+    "ably": "../../../../../../.vscode/icons/folder-ably",
+    "opentok": "../../../../../../.vscode/icons/folder-opentok",
+    "vonage": "../../../../../../.vscode/icons/folder-vonage",
   },
   "files.associations": {
     ".dockerignore": "ignore",
@@ -30,9 +36,6 @@
     ".search-view .search-widgets-container": "font-family: monospace !important; font-size: 12px !important;",
     ".monaco-list-rows, .monaco-findInput": "font-family: monospace !important; font-size: 12px !important;",
   },
-
-  // workspace
-  "window.zoomLevel": 0,
   "explorer.compactFolders": false,
   "workbench.tree.indent": 16,
   "workbench.startupEditor": "none",

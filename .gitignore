@@ -57,6 +57,8 @@
 !/.tmux.conf
 
 # vscodium
+!/.vscode
+!/.vscode/**/*
 !/.config/VSCodium
 !/.config/VSCodium/User
 !/.config/VSCodium/User/settings.json
