@@ -23,3 +23,5 @@
 	line-numbers-plus-style = "#08000000 #003000"
 	line-numbers-left-style = "#08000000"
 	line-numbers-right-style = "#08000000"
+[init]
+	defaultBranch = main

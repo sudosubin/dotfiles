@@ -20,13 +20,10 @@
     "stories.tsx": "storybook"
   },
   "material-icon-theme.folders.associations": {
+    "types": "typescript",
     "ably": "../../../../../../.vscode/icons/folder-ably",
     "opentok": "../../../../../../.vscode/icons/folder-opentok",
     "vonage": "../../../../../../.vscode/icons/folder-vonage",
-  },
-  "files.associations": {
-    ".dockerignore": "ignore",
-    "*.bats": "shellscript"
   },
   "customizeUI.activityBar": "bottom",
   "customizeUI.font.regular": "SF Pro Text",
@@ -54,15 +51,19 @@
   "gitlens.statusBar.enabled": false,
 
   // files
+  "files.associations": {
+    ".dockerignore": "ignore",
+    "*.bats": "shellscript",
+    ".env": "shellscript",
+  },
   "files.watcherExclude": {
     "**/.git/*/**": true,
     "**/node_modules/*/**": true,
-    "**/venv/*/**": true,
     "**/.venv/*/**": true
   },
   "files.eol": "\n",
-  "editor.trimAutoWhitespace": true,
   "files.trimTrailingWhitespace": true,
+  "editor.trimAutoWhitespace": true,
 
   // language (python)
   "python.showStartPage": false,
@@ -109,11 +110,20 @@
 
   // language (bash)
   "shellcheck.customArgs": ["-x"],
+  "shellcheck.ignorePatterns": {
+    ".env": true
+  },
 
   // languages (etc)
   "java.configuration.checkProjectSettingsExclusions": false,
   "[html]": {
     "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "[mdx]": {
+    "files.trimTrailingWhitespace": false
   },
 
   // telemetry, etc
