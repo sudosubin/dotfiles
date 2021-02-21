@@ -1,6 +1,7 @@
 [user]
 	name = sudosubin
 	email = sudosubin@gmail.com
+	signingkey = 4BB550D927AA2762F341A86068971E6A5D6DE3D6
 [core]
 	pager = delta --24-bit-color=always
 [interactive]
@@ -25,3 +26,7 @@
 	line-numbers-right-style = "#08000000"
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
