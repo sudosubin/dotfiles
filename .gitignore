@@ -38,6 +38,10 @@
 # git
 !/.gitconfig
 
+# alacritty
+!/.config/alacritty
+!/.config/alacritty/alacritty.yml
+
 # pip
 !/.config/pip
 !/.config/pip/pip.conf
@@ -49,9 +53,6 @@
 # ssl
 !/.ssl
 !/.ssl/openssl.cnf
-
-# st-term
-!/.Xresources
 
 # tmux
 !/.tmux.conf

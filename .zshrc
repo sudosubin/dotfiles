@@ -184,7 +184,7 @@ activate() {
 
 # Functions > st-term title
 precmd() {
-    printf "\033];$(dirs)\a";
+    echo -e "\e]2;$(dirs)\e\\ \c";
 }
 
 # Dotfiles
