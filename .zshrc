@@ -123,12 +123,6 @@ typeset -g FZF_DEFAULT_OPTS='
 zinit ice wait lucid pick'shell/key-bindings.zsh' src'shell/completion.zsh'
 zinit light junegunn/fzf
 
-# Plugins > k
-alias l=k
-alias ls='k -a'
-zinit ice wait lucid pick'k.sh'
-zinit light supercrabtree/k
-
 # Softwares > aws-vault
 zinit ice as'program' from'gh-r' mv'aws-vault* -> aws-vault'
 zinit light 99designs/aws-vault
@@ -146,6 +140,12 @@ zinit light dandavison/delta
 # Softwares > hadolint
 zinit ice as'program' from'gh-r' mv'hadolint* -> hadolint'
 zinit light hadolint/hadolint
+
+# Softwares > ll
+alias l=ll
+alias ls='ll -a'
+zinit ice as'program' from'gh-r' bpick'*ubuntu*'
+zinit light OldhamMade/ll
 
 # Softwares > lokalise2
 zinit ice as'program' from'gh-r'
