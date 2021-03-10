@@ -50,6 +50,10 @@
 !/.config/pypoetry
 !/.config/pypoetry/config.toml
 
+# ssh
+!/.ssh
+!/.ssh/config
+
 # ssl
 !/.ssl
 !/.ssl/openssl.cnf
