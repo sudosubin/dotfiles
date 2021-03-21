@@ -162,10 +162,6 @@ zinit ice as'program' cloneopts'' atclone'
 ' pick'.venv/bin/pipenv'
 zinit light pypa/pipenv
 
-# Paths > spicetify
-export SPICETIFY_INSTALL="$HOME/spicetify-cli"
-export PATH="$SPICETIFY_INSTALL:$PATH"
-
 # Functions > activate-virtualenv
 activate() {
     local venv_path;
