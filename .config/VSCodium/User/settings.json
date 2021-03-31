@@ -33,16 +33,31 @@
     ".search-view .search-widgets-container": "font-family: monospace !important; font-size: 12px !important;",
     ".monaco-list-rows, .monaco-findInput": "font-family: monospace !important; font-size: 12px !important;",
   },
+  "workbench.colorCustomizations": {
+    "errorLens.errorBackground": "#E06C751A",
+    "errorLens.errorForeground": "#E06C75",
+    "errorLens.warningBackground": "#D19A661A",
+    "errorLens.warningForeground": "#D19A66",
+    "errorLens.infoBackground": "#61AFEF1A",
+    "errorLens.infoForeground": "#61AFEF",
+    "errorLens.hintBackground": "#98C3791A",
+    "errorLens.hintForeground": "#98C379",
+  },
   "explorer.compactFolders": false,
   "workbench.tree.indent": 16,
   "workbench.startupEditor": "none",
-  "editor.minimap.enabled": false,
-  "editor.rulers": [80, 120],
   "editor.semanticHighlighting.enabled": false,
-  "editor.insertSpaces": true,
   "editor.smoothScrolling": true,
+  "editor.rulers": [80, 120],
+  "editor.insertSpaces": true,
   "trailing-spaces.backgroundColor": "rgba(255, 0, 0, 0.2)",
   "trailing-spaces.borderColor": "rgba(255, 100, 100, 0.1)",
+
+  // theme scrollbar / minimap
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
 
   // git
   "gitlens.currentLine.format": "${author} • ${date}, ${message}",
@@ -77,6 +92,7 @@
   },
 
   // language (javascript)
+  "emmet.excludeLanguages": ["typescriptreact"],
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "[javascript]": {
     "editor.tabSize": 2,
@@ -116,7 +132,6 @@
   },
 
   // languages (etc)
-  "java.configuration.checkProjectSettingsExclusions": false,
   "[html]": {
     "editor.tabSize": 2
   },
@@ -126,12 +141,16 @@
   "[mdx]": {
     "files.trimTrailingWhitespace": false
   },
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "errorLens.margin": "6ch",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.gutterIconSize": "65%",
+  "errorLens.gutterIconSet": "defaultOutline",
 
   // telemetry, etc
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-  "gitlens.advanced.telemetry.enabled": false,
   "extensions.ignoreRecommendations": true,
-  "update.mode": "none",
-  "eslint.alwaysShowStatus": true
+  "eslint.alwaysShowStatus": true,
+  "update.mode": "none"
 }
