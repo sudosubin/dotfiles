@@ -3,6 +3,11 @@
 	url = https://github.com/asdf-vm/asdf.git
 	branch = master
 
+[submodule ".icons/la-capitaine-icon-theme"]
+	path = .icons/la-capitaine-icon-theme
+	url = https://github.com/keeferrourke/la-capitaine-icon-theme.git
+	branch = master
+
 [submodule ".tmux/plugins/tpm"]
 	path = .tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm.git

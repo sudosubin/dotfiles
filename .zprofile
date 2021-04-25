@@ -1,9 +1,9 @@
-export GOOGLE_API_KEY="AIzaSyCkfPOPZXDKNn8hhgu3JrA62wIgC93d44k"
-export GOOGLE_DEFAULT_CLIENT_ID="811574891467.apps.googleusercontent.com"
-export GOOGLE_DEFAULT_CLIENT_SECRET="kdloedMFGdGla2P1zacGjAQh"
-
+# kime
 export GTK_IM_MODULE=kime
 export QT_IM_MODULE=kime
 export XMODIFIERS=@im=kime
 
-export PYTHONDONTWRITEBYTECODE=1
+# sway
+if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+	exec sway
+fi

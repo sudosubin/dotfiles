@@ -190,3 +190,5 @@ precmd() {
 
 # Dotfiles
 alias config="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+
+export PATH="$HOME/.poetry/bin:$PATH"

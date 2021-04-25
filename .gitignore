@@ -18,6 +18,10 @@
 # submodule > asdf
 !/.asdf
 
+# submodule > la-capitaine-icon-theme
+!/.icons
+!/.icons/la-capitaine-icon-theme
+
 # submodule > tpm
 !/.tmux
 !/.tmux/plugins
@@ -68,8 +72,18 @@
 !/.config/VSCodium/User
 !/.config/VSCodium/User/settings.json
 
-# zsh
+# x/zsh
+!/.xinitrc
 !/.p10k.zsh
 !/.zprofile
 !/.zshenv
 !/.zshrc
+
+# theme
+!/.gtkrc-2.0
+!/.config/gtk-3.0
+!/.config/gtk-3.0/settings.ini
+
+# sway
+!/.config/sway
+!/.config/sway/**/*
