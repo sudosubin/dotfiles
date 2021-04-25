@@ -4,16 +4,36 @@
 # git directory
 !/.github
 
-# .config
-!/.config
+# git
+!/.gitconfig
 
-# .config > autostart
-!/.config/autostart
-!/.config/autostart/*
+# scripts
+!/.local
+!/.local/share
+!/.local/share/scripts
+!/.local/share/scripts/*
 
-# .config > fonts
-!/.config/fontconfig
-!/.config/fontconfig/fonts.conf
+# ssh
+!/.ssh
+!/.ssh/config
+
+# ssl
+!/.ssl
+!/.ssl/openssl.cnf
+
+# theme
+!/.gtkrc-2.0
+!/.config/gtk-3.0
+!/.config/gtk-3.0/settings.ini
+
+# tmux
+!/.tmux.conf
+
+# zsh
+!/.p10k.zsh
+!/.zprofile
+!/.zshenv
+!/.zshrc
 
 # submodule > asdf
 !/.asdf
@@ -31,59 +51,44 @@
 !/.zinit
 !/.zinit/bin
 
-# bat
-!/.config/bat
-!/.config/bat/*
+# .config
+!/.config
 
-# bpython
-!/.config/bpython
-!/.config/bpython/*
-
-# git
-!/.gitconfig
-
-# alacritty
+# .config > alacritty
 !/.config/alacritty
 !/.config/alacritty/alacritty.yml
 
-# pip
+# .config > autostart
+!/.config/autostart
+!/.config/autostart/*
+
+# .config > fonts
+!/.config/fontconfig
+!/.config/fontconfig/fonts.conf
+
+# .config > bat
+!/.config/bat
+!/.config/bat/*
+
+# .config > bpython
+!/.config/bpython
+!/.config/bpython/*
+
+# .config > pip
 !/.config/pip
 !/.config/pip/pip.conf
 
-# poetry
+# .config > poetry
 !/.config/pypoetry
 !/.config/pypoetry/config.toml
 
-# ssh
-!/.ssh
-!/.ssh/config
+# .config > sway
+!/.config/sway
+!/.config/sway/config
 
-# ssl
-!/.ssl
-!/.ssl/openssl.cnf
-
-# tmux
-!/.tmux.conf
-
-# vscodium
+# .config > vscodium
 !/.vscode
 !/.vscode/**/*
 !/.config/VSCodium
 !/.config/VSCodium/User
 !/.config/VSCodium/User/settings.json
-
-# x/zsh
-!/.xinitrc
-!/.p10k.zsh
-!/.zprofile
-!/.zshenv
-!/.zshrc
-
-# theme
-!/.gtkrc-2.0
-!/.config/gtk-3.0
-!/.config/gtk-3.0/settings.ini
-
-# sway
-!/.config/sway
-!/.config/sway/**/*

@@ -41,20 +41,6 @@ client.urgent           #1E2127   #E06C75   #ABB2BF   #E06C75   #E06C75
 client.placeholder      #1E2127   #1E2127   #ABB2BF   #1E2127   #1E2127
 client.background       #FFFFFF
 
-
-# Status Bar
-bar {
-    position top
-
-    status_command while date +'%Y-%m-%d %H:%M:%S'; do sleep 1; done
-
-    colors {
-        statusline #ABB2BF
-        background #1E2127
-        inactive_workspace #000000FF #000000FF #ABB2BF
-    }
-}
-
 # Idle/Lock (TODO)
 
 
@@ -150,5 +136,12 @@ mode "resize" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
+
+# make
+exec mako
+
+# waybar
+bindsym $mod+n exec pkill -SIGUSR1 '^waybar$'
+exec_always ~/.local/share/waybar.sh
 
 include /etc/sway/config.d/*
