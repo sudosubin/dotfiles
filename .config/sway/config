@@ -140,8 +140,11 @@ mode "resize" {
 # make
 exec mako
 
+# policykit
+exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+
 # waybar
-bindsym $mod+n exec pkill -SIGUSR1 '^waybar$'
-exec_always ~/.local/share/waybar.sh
+bindsym $mod+x exec killall -SIGUSR1 waybar
+exec_always ~/.local/share/scripts/waybar.sh
 
 include /etc/sway/config.d/*

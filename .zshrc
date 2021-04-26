@@ -97,8 +97,7 @@ zinit light tadfisher/pass-otp
 
 # Plugins > completions (asdf)
 typeset -x NEXT_TELEMETRY_DISABLED="1"
-typeset -x JAVA_HOME="/home/sudosubin/.asdf/installs/java/openjdk-15.0.1"
-# source "$HOME/.asdf/plugins/java/set-java-home.zsh"
+typeset -x JAVA_HOME="/home/sudosubin/.asdf/installs/java/openjdk-11"
 zinit ice wait lucid pick'asdf.plugin.zsh' \
     atinit'autoload bashcompinit; bashcompinit' \
     atload'zicdreplay' blockf

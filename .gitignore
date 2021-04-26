@@ -92,3 +92,8 @@
 !/.config/VSCodium
 !/.config/VSCodium/User
 !/.config/VSCodium/User/settings.json
+
+# .config > waybar
+!/.config/waybar
+!/.config/waybar/config
+!/.config/waybar/style.css
