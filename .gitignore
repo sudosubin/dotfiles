@@ -97,3 +97,5 @@
 !/.config/waybar
 !/.config/waybar/config
 !/.config/waybar/style.css
+!/.config/waybar/modules
+!/.config/waybar/modules/media.sh

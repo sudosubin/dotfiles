@@ -25,7 +25,7 @@ input * {
 
 # Output
 output DP-1 mode 2560x1080@75Hz
-output * bg #000000 solid_color
+output * bg #1E2127 solid_color
 
 # Customize
 font pango: FiraMono Nerd Font Mono 9
