@@ -137,11 +137,14 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 
+# Screenshot
+bindsym $mod+p exec grim -g "$(slurp -d -b "#FFFFFF40" -c "#61AFEF" -w 1)" - | wl-copy
+
 # make
 exec mako
 
 # policykit
-exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id lxpolkit
 
 # waybar
 bindsym $mod+x exec killall -SIGUSR1 waybar
