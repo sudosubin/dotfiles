@@ -33,6 +33,7 @@
         "interval": 1,
         "return-type": "json",
         "escape": true,
+        "on-click": "playerctl play-pause",
         "exec": "$HOME/.config/waybar/modules/media.sh 2> /dev/null",
         "exec-if": "[ \"$(playerctl metadata --format '{{ playerName }}')\" != \"\" ]"
     },
