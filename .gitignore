@@ -92,6 +92,9 @@
 !/.config/VSCodium
 !/.config/VSCodium/User
 !/.config/VSCodium/User/settings.json
+!/.config/VSCodium/User/snippets
+!/.config/VSCodium/User/snippets/typescript.json
+!/.config/VSCodium/User/snippets/typescriptreact.json
 
 # .config > waybar
 !/.config/waybar
