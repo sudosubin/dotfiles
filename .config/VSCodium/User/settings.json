@@ -46,6 +46,7 @@
   "explorer.compactFolders": false,
   "workbench.tree.indent": 16,
   "workbench.startupEditor": "none",
+  "workbench.list.smoothScrolling": true,
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
   "editor.rulers": [80, 120],

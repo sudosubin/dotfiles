@@ -5,6 +5,6 @@ export XMODIFIERS=@im=kime
 
 # sway
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
-	source "$HOME/.local/share/scripts/sway.sh"
-	exec sway
+	source "$HOME/.local/share/scripts/i3.sh"
+	exec startx
 fi

@@ -161,11 +161,6 @@ zinit ice as'program' cloneopts'' atclone'
 ' pick'.venv/bin/pipenv'
 zinit light pypa/pipenv
 
-# Paths > gradle, maven, spring
-export PATH="/opt/gradle/bin:$PATH"
-export PATH="/opt/maven/bin:$PATH"
-export PATH="/opt/spring/bin:$PATH"
-
 # Functions > activate-virtualenv
 activate() {
     local venv_path;
@@ -182,12 +177,5 @@ activate() {
     done
 }
 
-# Functions > st-term title
-precmd() {
-    echo -e "\e]2;$(dirs)\e\\ \c";
-}
-
 # Dotfiles
 alias config="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
-
-export PATH="$HOME/.poetry/bin:$PATH"

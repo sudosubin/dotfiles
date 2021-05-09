@@ -29,6 +29,9 @@
 # tmux
 !/.tmux.conf
 
+# xorg
+!/.Xresources
+
 # zsh
 !/.p10k.zsh
 !/.zprofile
@@ -82,9 +85,9 @@
 !/.config/pypoetry
 !/.config/pypoetry/config.toml
 
-# .config > sway
-!/.config/sway
-!/.config/sway/config
+# .config > i3
+!/.config/i3
+!/.config/i3/config
 
 # .config > vscodium
 !/.vscode
@@ -95,10 +98,3 @@
 !/.config/VSCodium/User/snippets
 !/.config/VSCodium/User/snippets/typescript.json
 !/.config/VSCodium/User/snippets/typescriptreact.json
-
-# .config > waybar
-!/.config/waybar
-!/.config/waybar/config
-!/.config/waybar/style.css
-!/.config/waybar/modules
-!/.config/waybar/modules/media.sh
